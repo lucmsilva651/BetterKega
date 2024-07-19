@@ -30,6 +30,10 @@ ECHO Patching Kega Fusion to BetterKega...
 %RESHACKER% -script .\FusionPatch.rhs >NUL
 ECHO.
 ECHO Running BetterKega...
-..\Fusion364\BetterKega.exe
+START ..\Fusion364\BetterKega.exe
 
-PAUSE
+REM Writing to shortcut
+>> "..\Open BetterKega.cmd" ECHO @ECHO OFF
+>> "..\Open BetterKega.cmd" ECHO START Fusion364\BetterKega.exe
+>> "..\Open BetterKega.cmd" ECHO EXIT
+exit
