@@ -13,3 +13,4 @@ Log=..\FusionPatch.log
 -add ..\Resources\Menu101.res, MENU, 101, 2057
 -add ..\Resources\Menu102.res, MENU, 102, 2057
 -add ..\Resources\Menu114.res, MENU, 114, 2057
+-add ..\Resources\Dialog108.res, DIALOG, 108, 2057
