@@ -74,24 +74,24 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
       MENUITEM "47",  40328
     }
     MENUITEM SEPARATOR
-    MENUITEM "Full Screen\t(ESC)",  40047
-    MENUITEM "&VSync\t(SHIFT-ESC)",  40179
+    MENUITEM "Full Screen\t(Esc)",  40047
+    MENUITEM "&VSync\t(Shift+Esc)",  40179
     MENUITEM SEPARATOR
     POPUP "Video Filters"
     {
-      MENUITEM "&Normal\t(ALT-6)",  40176
-      MENUITEM "Nearest Multiple\t(SHIFT-9)",  40277
-      MENUITEM "&Filtered (Blur)\t(ALT-0)",  40102
-      MENUITEM "Brighten\t(CTRL-0)",  40261
-      MENUITEM "&TV Mode (RF)\t(ALT-7)",  40178
-      MENUITEM "TV Mode (CVBS)\t(ALT-8)",  40237
+      MENUITEM "&Normal\t(Alt+6)",  40176
+      MENUITEM "Nearest Multiple\t(Shift+9)",  40277
+      MENUITEM "&Filtered (Blur)\t(Alt+0)",  40102
+      MENUITEM "Brighten\t(Ctrl+0)",  40261
+      MENUITEM "&TV Mode (RF)\t(Alt+7)",  40178
+      MENUITEM "TV Mode (CVBS)\t(Alt+8)",  40237
       POPUP "Scanlines"
       {
-        MENUITEM "Scanlines 100%\t(ALT-1)",  40177
-        MENUITEM "Scanlines 75%\t(ALT-2)",  40098
-        MENUITEM "Scanlines 50%\t(ALT-3)",  40099
-        MENUITEM "Scanlines 25%\t(ALT-4)",  40100
-        MENUITEM "Scanlines 0%\t(ALT-5)",  40223
+        MENUITEM "Scanlines 100%\t(Alt+1)",  40177
+        MENUITEM "Scanlines 75%\t(Alt+2)",  40098
+        MENUITEM "Scanlines 50%\t(Alt+3)",  40099
+        MENUITEM "Scanlines 25%\t(Alt+4)",  40100
+        MENUITEM "Scanlines 0%\t(Alt+5)",  40223
       }
     }
     POPUP "Render Plugin"
@@ -148,9 +148,9 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
     MENUITEM SEPARATOR
     POPUP "Video Aspect"
     {
-      MENUITEM "Fixed Aspect (Fit)\t(ALT-9)",  40181
-      MENUITEM "Fixed Aspect (Zoom)\t(CTRL-9)",  40236
-      MENUITEM "Use NTSC Aspect\t(SHIFT-0)",  40273
+      MENUITEM "Fixed Aspect (Fit)\t(Alt+9)",  40181
+      MENUITEM "Fixed Aspect (Zoom)\t(Ctrl+9)",  40236
+      MENUITEM "Use NTSC Aspect\t(Shift+0)",  40273
     }
     MENUITEM SEPARATOR
     MENUITEM "Auto Mode Switching",  40239
