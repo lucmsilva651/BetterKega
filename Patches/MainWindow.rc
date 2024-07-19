@@ -54,10 +54,6 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
       MENUITEM "Save State As...\t(Shift+F5)",  40003
     }
     MENUITEM SEPARATOR
-    MENUITEM "Power O&n / Hard Reset\t(Tab)",  40092
-    MENUITEM "Power &Off\t(Shift+Tab)",  40039
-    MENUITEM "&Soft Reset\t(Ctrl+Tab)",  40010
-    MENUITEM SEPARATOR
     POPUP "Netplay"
     {
       MENUITEM "Join Netplay Game",  40258
@@ -77,6 +73,18 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
     }
     MENUITEM SEPARATOR
     MENUITEM "E&xit",  40005
+  }
+  POPUP "&Emulation"
+  {
+    MENUITEM "Power O&n / Hard Reset\t(Tab)",  40092
+    MENUITEM "Power &Off\t(Shift+Tab)",  40039
+    MENUITEM "&Soft Reset\t(Ctrl+Tab)",  40010
+    MENUITEM SEPARATOR
+    MENUITEM "Pause Emulation\t(Pause)",  40267
+    MENUITEM "Frame Advance\t(Insert)",  40271
+    MENUITEM "Fast Forward\t(Backspc)",  40233
+    MENUITEM SEPARATOR
+    MENUITEM "Enable SC3000 Keyboard",  40383
   }
   POPUP "&Video"
   {
@@ -154,12 +162,6 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
     MENUITEM "High Priority",  40235
     MENUITEM SEPARATOR
     MENUITEM "Messenger Status (MSN)",  40382
-    MENUITEM SEPARATOR
-    MENUITEM "Pause Emulation\t(Pause)",  40267
-    MENUITEM "Frame Advance\t(Insert)",  40271
-    MENUITEM "Fast Forward\t(Backspc)",  40233
-    MENUITEM SEPARATOR
-    MENUITEM "Enable SC3000 Keyboard",  40383
     MENUITEM "Disable Key Shortcuts",  40234
   }
   POPUP "&Help"
