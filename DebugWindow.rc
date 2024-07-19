@@ -1,0 +1,47 @@
+102 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+{
+  POPUP "&CPU"
+  {
+    MENUITEM "Z80",  40262
+    MENUITEM "&Genesis 68K",  40005
+    MENUITEM "&SegaCD 68K",  40006
+    MENUITEM "Master SH2",  40007
+    MENUITEM "Slave SH2",  40226
+  }
+  POPUP "&VDP"
+  {
+    MENUITEM "Show BG&A",  40002
+    MENUITEM "Show BG&B",  40003
+    MENUITEM "Show &Window",  40004
+    MENUITEM "Show SpriteList",  40222
+    MENUITEM "32X VRAM",  40096
+  }
+  POPUP "&Sound"
+  {
+    MENUITEM "&YM2612",  40016
+  }
+  POPUP "&Debug"
+  {
+    MENUITEM "Stop\t(ESC)",  40008
+    MENUITEM SEPARATOR
+    MENUITEM "Step Into\t(F1)",  40228
+    MENUITEM "Step Over\t(F2)",  40229
+    MENUITEM "Run To Cursor\t(F3)",  40230
+    MENUITEM "Toggle Breakpoint\t(F4)",  40231
+    MENUITEM SEPARATOR
+    MENUITEM "Run\t(F10)",  40009
+    MENUITEM SEPARATOR
+    MENUITEM "Goto\t(CTRL-G)",  40010
+    MENUITEM "Set Register",  40224
+    MENUITEM "Show Breakpoints",  40232
+  }
+  POPUP "&Temp"
+  {
+    MENUITEM "&Load",  40011
+    MENUITEM "&Save",  40012
+    MENUITEM "Start Debugger",  40227
+    MENUITEM "Refresh",  40263
+    MENUITEM "Double Size",  40264
+  }
+}
