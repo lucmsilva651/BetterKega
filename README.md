@@ -1,4 +1,6 @@
 # BetterKega
+<img align="right" width="350" src="BetterKegaLogo.png">
+
 *A patch for Kega Fusion, made to improve the overall user experience*
 
 This project is made mostly to change the design, do some fixes, and make the modding scene more active for this emulator.
