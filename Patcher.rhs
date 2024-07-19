@@ -1,11 +1,12 @@
 [FILENAMES]
-Exe=Fusion.exe
-SaveAs=BetterKega.exe
+Exe="Fusion364\Fusion.exe"
+SaveAs="Fusion364\BetterKega.exe"
 Log=FusionPatch.log
+
 [COMMANDS]
 -delete MENU, 101
 -delete MENU, 102
 -delete MENU, 114
--addoverwrite Patches\MainWindow.rc, MENU, 101
--addoverwrite Patches\DebugWindow.rc, MENU, 102
--addoverwrite Patches\VideoWinSection.rc, MENU, 114
+-add "Patches\Menu101.rc", MENU, 101
+-add "Patches\Menu102.rc", MENU, 102
+-add "Patches\Menu114.rc", MENU, 114
