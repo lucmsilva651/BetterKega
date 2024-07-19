@@ -1,0 +1,15 @@
+[FILENAMES]
+Exe=..\Fusion364\Fusion.exe
+SaveAs=..\Fusion364\BetterKega.exe
+Log=..\FusionPatch.log
+
+[COMMANDS]
+// deleting resources on Fusion to avoid conflict
+-delete MENU, 101, 2057
+-delete MENU, 102, 2057
+-delete MENU, 114, 2057
+
+// patching Fusion with the new resources
+-add ..\Resources\Menu101.res, MENU, 101, 2057
+-add ..\Resources\Menu102.res, MENU, 102, 2057
+-add ..\Resources\Menu114.res, MENU, 114, 2057
