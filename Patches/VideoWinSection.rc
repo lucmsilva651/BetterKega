@@ -146,11 +146,12 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
       MENUITEM "[Empty]",  40376
     }
     MENUITEM SEPARATOR
-    MENUITEM "Fixed Aspect (Fit)\t(ALT-9)",  40181
-    MENUITEM "Fixed Aspect (Zoom)\t(CTRL-9)",  40236
-    MENUITEM "Use NTSC Aspect\t(SHIFT-0)",  40273
-    MENUITEM SEPARATOR
-    MENUITEM "Log AVI File",  40278
+    POPUP "Video Aspect"
+    {
+      MENUITEM "Fixed Aspect (Fit)\t(ALT-9)",  40181
+      MENUITEM "Fixed Aspect (Zoom)\t(CTRL-9)",  40236
+      MENUITEM "Use NTSC Aspect\t(SHIFT-0)",  40273
+    }
     MENUITEM SEPARATOR
     MENUITEM "Auto Mode Switching",  40239
   }
