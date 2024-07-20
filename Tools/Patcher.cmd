@@ -27,14 +27,14 @@ IF "%RESHACKER%" NEQ "" (
 
 :MAIN
 ECHO Compiling resource files...
-%RESHACKER% -open ..\Patches\Menu101.rc -save ..\Resources\Menu101.res -action compile >NUL
-%RESHACKER% -open ..\Patches\Menu102.rc -save ..\Resources\Menu102.res -action compile >NUL
-%RESHACKER% -open ..\Patches\Menu114.rc -save ..\Resources\Menu114.res -action compile >NUL
-%RESHACKER% -open ..\Patches\Dialog108.rc -save ..\Resources\Dialog108.res -action compile >NUL
-CLS
+%RESHACKER% -open ..\Patches\Menu101.rc -save ..\Resources\Menu101.res -action compile
+%RESHACKER% -open ..\Patches\Menu102.rc -save ..\Resources\Menu102.res -action compile
+%RESHACKER% -open ..\Patches\Menu114.rc -save ..\Resources\Menu114.res -action compile
+%RESHACKER% -open ..\Patches\Dialog108.rc -save ..\Resources\Dialog108.res -action compile
+
 ECHO.
 ECHO Patching Kega Fusion to BetterKega...
-%RESHACKER% -script .\FusionPatch.rhs >NUL
+%RESHACKER% -script .\FusionPatch.rhs
 ECHO.
 ECHO Running BetterKega...
 START ..\Fusion364\BetterKega.exe

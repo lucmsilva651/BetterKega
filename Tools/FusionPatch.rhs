@@ -5,12 +5,13 @@ Log=..\FusionPatch.log
 
 [COMMANDS]
 // deleting resources on Fusion to avoid conflict
--delete MENU, 101, 2057
--delete MENU, 102, 2057
--delete MENU, 114, 2057
+-delete MENU, 101
+-delete MENU, 102
+-delete MENU, 114
+-delete DIALOG, 108
 
 // patching Fusion with the new resources
--add ..\Resources\Menu101.res, MENU, 101, 2057
--add ..\Resources\Menu102.res, MENU, 102, 2057
--add ..\Resources\Menu114.res, MENU, 114, 2057
--add ..\Resources\Dialog108.res, DIALOG, 108, 2057
+-add ..\Resources\Menu101.res, MENU, 101
+-add ..\Resources\Menu102.res, MENU, 102
+-add ..\Resources\Menu114.res, MENU, 114
+-add ..\Resources\Dialog108.res, DIALOG, 108
