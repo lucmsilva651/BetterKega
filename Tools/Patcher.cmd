@@ -37,12 +37,16 @@ ECHO Patching Kega Fusion to BetterKega...
 %RESHACKER% -script .\FusionPatch.rhs
 REM https://github.com/lucmsilva651/BK_binmod - Binary editing
 binmod
+REM Delete original Fusion and replace with patched one
+del /f ..\Fusion364\Fusion.exe
+rename ..\Fusion364\BetterKega.exe Fusion.exe
 ECHO.
 ECHO Running BetterKega...
-START ..\Fusion364\BetterKega.exe
+START ..\Fusion364\Fusion.exe
 
 REM Writing to shortcut
-> "..\Open BetterKega.cmd" ECHO @ECHO OFF
-> "..\Open BetterKega.cmd" ECHO START Fusion364\BetterKega.exe
-> "..\Open BetterKega.cmd" ECHO EXIT
-exit
+ECHO @ECHO OFF > "..\Open BetterKega.cmd"
+ECHO START Fusion364\Fusion.exe > "..\Open BetterKega.cmd"
+ECHO EXIT > "..\Open BetterKega.cmd"
+
+EXIT
