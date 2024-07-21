@@ -35,12 +35,14 @@ ECHO Compiling resource files...
 ECHO.
 ECHO Patching Kega Fusion to BetterKega...
 %RESHACKER% -script .\FusionPatch.rhs
+REM https://github.com/lucmsilva651/BK_binmod - Binary editing
+binmod
 ECHO.
 ECHO Running BetterKega...
 START ..\Fusion364\BetterKega.exe
 
 REM Writing to shortcut
->> "..\Open BetterKega.cmd" ECHO @ECHO OFF
->> "..\Open BetterKega.cmd" ECHO START Fusion364\BetterKega.exe
->> "..\Open BetterKega.cmd" ECHO EXIT
+> "..\Open BetterKega.cmd" ECHO @ECHO OFF
+> "..\Open BetterKega.cmd" ECHO START Fusion364\BetterKega.exe
+> "..\Open BetterKega.cmd" ECHO EXIT
 exit

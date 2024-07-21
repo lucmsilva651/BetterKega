@@ -1,5 +1,8 @@
 *.exe
+*.pdb
 *.log
 *.res
 Fusion364
+Resources
 Open BetterKega.cmd
+!Tools/binmod.exe
