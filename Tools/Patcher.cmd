@@ -1,17 +1,5 @@
-@ECHO OFF
-
-REM Closing all open instances of Fusion
-TASKKILL /F /IM BETTERKEGA.exe
-TASKKILL /F /IM FUSION.exe
-TASKKILL /F /IM FUSION_ORIGINAL.exe
-
-REM Checking if there are compiled resources
-IF EXIST "..\Resources" (
-  RMDIR /Q /S ..\Resources
-  GOTO RESHACKERCHECK
-) ELSE (
-  GOTO RESHACKERCHECK
-)
+REM Simple solution to a dumb design choice of mine
+set RESHACKER=ResourceHacker.exe
 
 REM Put ResourceHacker on your PATH to %RESHACKER%
 :RESHACKERCHECK
@@ -23,6 +11,19 @@ IF "%RESHACKER%" NEQ "" (
   ECHO ResourceHacker is not on path. Exiting...
   PAUSE >NUL
   EXIT 
+)
+
+REM Closing all open instances of Fusion
+TASKKILL /F /IM BETTERKEGA.exe
+TASKKILL /F /IM FUSION.exe
+TASKKILL /F /IM FUSION_ORIGINAL.exe
+
+REM Checking if there are compiled resources
+IF EXIST "Resources" (
+  RMDIR /Q /S Resources
+  GOTO RESHACKERCHECK
+) ELSE (
+  GOTO RESHACKERCHECK
 )
 
 :MAIN
