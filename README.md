@@ -31,7 +31,7 @@ Now, you have this structure:
 ```
 Start extracting the ``"Fusion364.zip"`` file inside of the BetterKega folder.
 
-Now it is easy! Just open the ``"Tools"`` folder and click on the ``"Patcher.cmd"`` file.
+Now it is easy! Just open the ``"Install.cmd"`` file.
 
 ## Post-install
 If you want to run BetterKega again after installation, just go inside the ``"Fusion364"`` folder and open the ``"Fusion.exe"`` file, or just use the ``"Open BetterKega.cmd"`` script to open BetterKega.
