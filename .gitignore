@@ -2,7 +2,8 @@
 *.pdb
 *.log
 *.res
+*.zip
 Fusion364
 Resources
 Open BetterKega.cmd
-!Tools/binmod.exe
+!Patcher/binmod.exe

@@ -28,10 +28,10 @@ IF EXIST "Resources" (
 
 :MAIN
 ECHO Compiling resource files...
-%RESHACKER% -open ..\Patches\Menu101.rc -save ..\Resources\Menu101.res -action compile
-%RESHACKER% -open ..\Patches\Menu102.rc -save ..\Resources\Menu102.res -action compile
-%RESHACKER% -open ..\Patches\Menu114.rc -save ..\Resources\Menu114.res -action compile
-%RESHACKER% -open ..\Patches\Dialog108.rc -save ..\Resources\Dialog108.res -action compile
+%RESHACKER% -open ..\Scripts\Menu101.rc -save ..\Resources\Menu101.res -action compile
+%RESHACKER% -open ..\Scripts\Menu102.rc -save ..\Resources\Menu102.res -action compile
+%RESHACKER% -open ..\Scripts\Menu114.rc -save ..\Resources\Menu114.res -action compile
+%RESHACKER% -open ..\Scripts\Dialog108.rc -save ..\Resources\Dialog108.res -action compile
 
 ECHO.
 ECHO Patching Kega Fusion to BetterKega...

@@ -15,5 +15,5 @@ ECHO Please put your Fusion folder here named "Fusion364".
 PAUSE >NUL
 
 :INSTALL
-cd Tools
+cd Patcher
 Patcher.cmd
