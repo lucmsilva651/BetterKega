@@ -13,7 +13,7 @@ So, with this, anyone can translate and even help with the project! Since Kega F
 > Obviously, some things are broken (like the file history). If you know how to fix anything wrong with BetterKega or have a feature suggestion, please help with a issue or a pull request. You're always welcome!
 
 ## How to install
-First, you need to have [ResourceHacker] on your PATH. There is a plenty of tutorials on how to do this. Put the program on a ``%RESHACKER%`` variable in PATH to make the patcher work.
+First, you need to have [ResourceHacker] on your PATH. There is a plenty of tutorials on how to do this. Just search for it.
 
 Now you need to have the emulator itself. There is a download link for this emulator on the official website:
 - [Carpe Ludum] (download here, Fusion 3.6x)
